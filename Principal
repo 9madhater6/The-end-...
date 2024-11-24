@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Recibida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Recibida</h1>
+    </header>
+    <main>
+        <!-- Contador -->
+        <section id="contador">
+            <h2 id="nombre-contador">¡Cuenta regresiva para mi recibida!</h2>
+            <p id="tiempo-restante"></p>
+            <button onclick="personalizarContador()">Personalizar Contador</button>
+        </section>
+        <!-- Tabla Personalizable -->
+        <section id="tabla">
+            <h2>Mi Tabla Personalizable</h2>
+            <table id="tabla-personalizada">
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ejemplo 1</td>
+                        <td>Ejemplo 2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="agregarFila()">Agregar Fila</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
